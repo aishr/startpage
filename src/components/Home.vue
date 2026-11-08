@@ -7,7 +7,7 @@ import QuickLinks from './QuickLinks.vue';
 function getRandomInt(max:number) {
     return (Math.floor(Math.random() * Math.floor(max))) + 1;
 }
-let maxBackground:number = 50;
+let maxBackground:number = 60;
 let image: string = `url(${import.meta.env.BASE_URL}assets/backgrounds/cat${getRandomInt(maxBackground)}.jpg)`;
 </script>
 
